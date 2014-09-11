@@ -27,6 +27,8 @@ class ViewController: UIViewController {
 
     @IBAction func sendMailButtonPress(sender: UIButton) {
         // Code will evaluate when we press the button
+        // This comment wil test commits
+        
         messageLabel.text = enterMessageTextField.text
         messageLabel.hidden = false
         
